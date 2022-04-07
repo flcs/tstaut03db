@@ -1,0 +1,30 @@
+{
+	"orcamento_cliente": [
+		{ "id": 1, "vendedor": 2, "cliente": 1, "data_contato": "2022/04/01", "data_fechamento": "2022/04/01", "estado": "aguardando", "end_entr": "rua do sobe e desce, nr desaparece", "nota_fiscal_venda": 0  },
+		{ "id": 2, "vendedor": 2, "cliente": 1, "data_contato": "2022/04/01", "data_fechamento": "2022/04/01", "estado": "cancelado", "end_entr": "rua do sobe e desce, nr desaparece", "nota_fiscal_venda": 0  },
+		{ "id": 3, "vendedor": 2, "cliente": 1, "data_contato": "2022/04/01", "data_fechamento": "2022/04/01", "estado": "solicitado", "end_entr": "rua do sobe e desce, nr desaparece", "nota_fiscal_venda": 0  },
+		{ "id": 4, "vendedor": 2, "cliente": 1, "data_contato": "2022/04/01", "data_fechamento": "2022/04/01", "estado": "negado", "end_entr": "rua do sobe e desce, nr desaparece", "nota_fiscal_venda": 0  },
+		{ "id": 5, "vendedor": 2, "cliente": 1, "data_contato": "2022/04/01", "data_fechamento": "2022/04/01", "estado": "processando", "end_entr": "rua do sobe e desce, nr desaparece", "nota_fiscal_venda": 0  },
+		{ "id": 6, "vendedor": 2, "cliente": 1, "data_contato": "2022/04/01", "data_fechamento": "2022/04/01", "estado": "faturado", "end_entr": "rua do sobe e desce, nr desaparece", "nota_fiscal_venda": 1  }
+	],
+	"orcamento_produto": [
+		{ "id": 1, "orcamento": 1, "produto": 5, "quantidade": 2,	"preco":  5.00, "desconto": 0.01 },
+		{ "id": 2, "orcamento": 1, "produto": 3, "quantidade": 1,	"preco": 15.00, "desconto": 0.00 },
+		{ "id": 3, "orcamento": 3, "produto": 1, "quantidade": 10,	"preco":  1.00, "desconto": 0.00 },
+		{ "id": 4, "orcamento": 3, "produto": 2, "quantidade": 1,	"preco": 25.00, "desconto": 0.00 }
+	], 
+	"nota_fiscal_venda": [
+		{ "id": 1, "imposto": 1, "data_emissao": "2022/04/01", "valor_base": 1000.00, "valor_imposto": 10.00, "transportador": 1, "forma_pgto": 1, "vezes": 1 },
+		{ "id": 2, "imposto": 2, "data_emissao": "2022/04/01", "valor_base": 1000.00, "valor_imposto": 10.00, "transportador": 1, "forma_pgto": 2, "vezes": 5 },
+		{ "id": 3, "imposto": 3, "data_emissao": "2022/04/01", "valor_base": 1000.00, "valor_imposto": 10.00, "transportador": 1, "forma_pgto": 1, "vezes": 3 }
+	],
+	"sobrando": [
+	],
+	"sobrando2": [
+	],
+	"profile": {
+	    "name": "typicode"
+	}
+}
+
+
